@@ -2,15 +2,15 @@
 <div id="container">
     <div id="ap">
       <div class="menu">
-        <img class="logo" src="./assets/logoAssist.png" alt="Logo Assist">
+        <img class="logo" src="../assets/logoAssist.png" alt="Logo Assist">
         <div class="home" @click="homePage()">Home</div>
         <div class="about" @click="aboutPage()">About</div>
         <div class="contact" @click="contactPage()">Contact</div>
       </div>  
       <footer>
-        <div>Assist Software 2022</div>  <div>Created by: {{myName}}</div>
-
-       
+        <div>Assist Software 2022</div>
+        <br>
+        <div>Created by: {{myName}}</div>
       </footer>
   </div>
 </div>
@@ -59,8 +59,7 @@ export default {
 footer{
   background-color: #ededed;
   height: 40px;
-  width:calc(100%-2px);
-  color:#515356;
-  
+  width:auto;
+  color:#515356
 }
 </style>
